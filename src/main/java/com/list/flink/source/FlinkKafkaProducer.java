@@ -13,7 +13,7 @@ public class FlinkKafkaProducer {
     public static void main(String[] args) throws InterruptedException {
         //配置连接kafka的信息
         Properties properties = new Properties();
-        properties.put("bootstrap.servers", "192.168.48.131:9092");
+        properties.put("bootstrap.servers", "192.168.201.128:9092");
         properties.put("buffer.memory", 33554432);
         properties.put("retries", 0);
         properties.put("acks", "all");
